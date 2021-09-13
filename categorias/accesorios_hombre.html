@@ -20,7 +20,9 @@
      <link rel="stylesheet" href="../css/tooplate-gymso-style.css">
 
     <style>
-        
+        #productos > div > div.col-3.d-none.d-lg-block > div > div > div > ul > li > a:hover{
+            text-decoration: underline;
+        }
     </style>
 
 </head>
@@ -53,10 +55,11 @@
                             <a href="../index.html" class="dropdown-item btn btn-light"  >Todos</a>
                             <a href="accesorios_hombre.html" class="dropdown-item btn btn-light"  >Accesorios Hombre</a>
                             <a href="accesorios_mujer.html" class="dropdown-item btn btn-light"  >Accesorios Mujer</a>
+                            <a href="caminadoras.html" class="dropdown-item btn btn-light"  >Caminadoras</a>
                             <a href="mancuernas.html" class="dropdown-item btn btn-light"  >Mancuernas</a>
                             <a href="mask.html" class="dropdown-item btn btn-light"  >Mascarillas</a>
                             <a href="sweat_waist.html" class="dropdown-item btn btn-light"  >Sweat Waist</a>
-                            <a href="thermos.html" class="dropdown-item btn btn-light"  >Termos</a>
+                            <a href="thermos.html" class="dropdown-item btn btn-light"  >Botellas de Agua</a>
 
 						</div>
 					
@@ -89,8 +92,8 @@
 
                          <div class="col-lg-8 col-md-10 mx-auto col-12">
                               <div class="hero-text mt-5 text-center">
-                                    <h6 data-aos="fade-up" data-aos-delay="300">Compra art&iacute;culos para tu gimnacio!!</h6>
-                                    <h1 class="text-white" data-aos="fade-up" data-aos-delay="500">Tienda de art&iacute;culos para gimnacio y deportes</h1>
+                                    <h6 data-aos="fade-up" data-aos-delay="300">Compra art&iacute;culos para tu gimnasio!!</h6>
+                                    <h1 class="text-white" data-aos="fade-up" data-aos-delay="500">Tienda de art&iacute;culos para gimnasio y deportes</h1>
                                     <a href="#lista" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="600">Lista de Productos</a>
                                     <a href="#productos" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="700">Ir a Productos</a>
                               </div>
@@ -107,17 +110,11 @@
             <div class="col-12 d-flex flex-column justify-content-center align-items-center mb-5" >
                 <h6 class="text-center" data-aos="fade-up">Elija a su medida!</h6>
                 <h2 class="text-center" data-aos="fade-up" data-aos-delay="200">Nuestra lista de productos</h2>
+                <a href="../index.html" data-aos="fade-up" data-aos-delay="300" ><u>See all</u></a>
             </div>
         </div>   
         
         <div class="row justify-content-around">
-
-            <div class="col-10 col-sm-5 col-lg-3 mr-1 mt-5 p-0 rounded shadow " data-aos="fade-up"   >
-                <div class="d-flex justify-content-center align-items-center h-100" >
-                    <a href="../index.html"><img src="../img/img_categorias/all.jpeg" class="rounded-left" style="width:85px; height:110px;" alt="" ></a>
-                    <a href="../index.html" class="btn btn-white w-100 rounded-0 rounded-left border-0 center h-100 d-flex align-items-center" ><span style="font-size:110%;" >Todos</span></a>       
-                </div>                                                 
-            </div>
 
             <div class="col-10 col-sm-5 col-lg-3 mr-1 mt-5 p-0 rounded shadow " data-aos="fade-up"   >
                 <div class="d-flex justify-content-center align-items-center h-100" >
@@ -164,7 +161,7 @@
             <div class="col-10 col-sm-5 col-lg-3 mr-1 mt-5 p-0 rounded shadow " data-aos="fade-up"   >
                 <div class="d-flex justify-content-center align-items-center h-100" >
                     <a href="thermos.html"><img src="../img/img_categorias/categoria_thermos.jpg" class="rounded-left" alt="" ></a>
-                    <a href="thermos.html" class="btn btn-white w-100 rounded-0 rounded-left border-0 center h-100 d-flex align-items-center" ><span style="font-size:110%;" >Termos</span></a>       
+                    <a href="thermos.html" class="btn btn-white w-100 rounded-0 rounded-left border-0 center h-100 d-flex align-items-center" ><span style="font-size:110%;" >Botellas de Agua</span></a>       
                 </div>                                                 
             </div>
 
@@ -174,44 +171,119 @@
 
 
      <!-- PRODUCTOS -->
-     <section class="container my-5" id="productos" >
-        <div class="row justify-content-around">
+     <section class="container-fluid my-5" id="productos" >
+        <div class="row justify-content-around ">
 
-                <div class="col-lg-12 col-12 text-center mb-5">
-                    <h6 class="text-center" data-aos="fade-up">Obt&eacute;n un cuerpo perfecto!!</h6>
-                    <h2 class="text-center" data-aos="fade-up" data-aos-delay="200">Accesorios para Hombres</h2>
-                </div>
+            <div class="col-lg-12 col-12 text-center mb-5">
+                <h6 class="text-center" data-aos="fade-up">Obt&eacute;n un cuerpo perfecto!!</h6>
+                <h2 class="text-center" data-aos="fade-up" data-aos-delay="200">Accesorios de Hombre</h2>
+            </div>
 
-                    <!-- <div class="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
-                        <a href="#">
+            <!-- products -->
+            <div class="col-12 col-lg-9 container-fluid ">
+                <div class="row">
+
+                    <div class="col-11 border-bottom " >
+                        <h3>Productos Destacados</h3>
+                    </div>
+
+                    <!-- sudaderas hombre -->
+                    <div id="sudaderas_hombre_featured" ></div>
+
+                    <div class="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                        <a target="_blank" href="https://amzn.to/3niEYih">
                             <div class="class-thumb mt-5">
-                                <img src="images/class/yoga-class.jpg" class="img-fluid" alt="Class" >
+                                <img src="../img/imagenes-productos/Gildan-Men's-Fleece-Hooded-Sweatshirt-Style-G18500.jpg" class="img-fluid" alt="Gildan-Men's-Fleece-Hooded-Sweatshirt-Style-G18500" >
                                 <div class="class-info">
-                                    <h3 class="mb-1">T&iacute;tulo</h3>
-                                    <span><strong>Categor&iacute;a</strong> - Caminadoras</span>
-                                    <span class="class-price d-flex justify-content-center align-items-center" style="position:absolute; top:-25px; right:10px;" >$2544</span>
-                                    <p class="mt-3">Esta es la descripcion de este producto</p>
+                                    <span class="mb-1 text-dark w-100 d-block" ><strong class="text-dark" style="font-size:120%;" >Gildan Men's Fleece Hooded Sweatshirt, Style G18500</strong></span>
+                                    <span><strong>Categor&iacute;a</strong> - Sudadera con gorro</span>
+                                    <div class="class-price d-flex justify-content-center align-items-center" style="position:absolute; top:-25px; right:10px;" >
+                                        <span>&dollar;11.79</span>
+                                        <!-- <span class="text-muted" >&dollar;25</span> -->
+                                    </div>
+                                    <p class="mt-3">
+                                        <ul class="d-flex flex-column ml-3" >
+                                            <li>50% Cotton, 50% Polyester</li>
+                                            <li>Pull On closure</li>
+                                            <li>Machine Wash</li>
+                                            <li>double-needle stitching throughout</li>
+                                            <li class="list-unstyled" ><u>M&aacute;s Detalles</u></li>
+                                            <!-- <li>1x1 ribbed cuffs and waistband with spandex</li>
+                                            <li>double-lined hood</li>
+                                            <li>Safety Orange is compliant with ANSI - ISEA 107 High Visibility Standards</li>
+                                            <li>-resistant air jet yarn</li> -->
+                                        </ul>  
+                                    </p>
+                                    <span style="color: #f13a11;" >&dollar;11.79 - &dollar;35.51</span>
                                 </div>
                             </div>
                         </a>
-                    </div>       -->
+                    </div>
+                    
+                    <div class="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                        <a target="_blank" href="https://amzn.to/3niEYih">
+                            <div class="class-thumb mt-5">
+                                <img src="../img/imagenes-productos/Hanes-Men's-Comfortwash-Garment-Dyed-Hoodie-Sweatshirt.jpg" class="img-fluid" alt="Hanes-Men's-Comfortwash-Garment-Dyed-Hoodie-Sweatshirt" >
+                                <div class="class-info">
+                                    <span class="mb-1 text-dark w-100 d-block" ><strong class="text-dark" style="font-size:120%;" >Hanes Men's Comfortwash Garment Dyed Hoodie Sweatshirt</strong></span>
+                                    <span><strong>Categor&iacute;a</strong> - Sudadera con gorro</span>
+                                    <div class="class-price d-flex justify-content-center align-items-center" style="position:absolute; top:-25px; right:10px;" >
+                                        <span>&dollar;17.66</span>
+                                        <!-- <span class="text-muted" >&dollar;25</span> -->
+                                    </div>
+                                    <p class="mt-3">
+                                        <ul class="d-flex flex-column ml-3" >
+                                            <li>50% Cotton, 50% Polyester</li>
+                                            <li>Imported</li>
+                                            <li>No Closure closure</li>
+                                            <li>Machine Wash</li>
+                                            <li class="list-unstyled" ><u>M&aacute;s Detalles</u></li>
+                                            <!-- <li>7.2-Oz. Cotton blend fleece is super soft and comfortable</li>
+                                            <li>Vintage washed and garment dyed for a retro look and feel</li>
+                                            <li>Twill draw cord and jersey lined hood</li>
+                                            <li>Available in a variety of colors</li>
+                                            <li>Cotton sourced from American farms</li> -->
+                                        </ul>  
+                                    </p>
+                                    <span style="color: #f13a11;" >&dollar;17.66 - &dollar;41.37</span>
+                                    <small class="text-muted" ><s>&dollar;40</s></small>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
 
-                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around my-2" data-aos="fade-up" data-aos-delay="400" >
-                    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=fullgym01-20&marketplace=amazon&amp;region=US&placement=B07P6SYXSH&asins=B07P6SYXSH&linkId=48c90b9ac0ccb2cc7cb23ebfc7effc3f&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-                    </iframe>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around my-2" data-aos="fade-up" data-aos-delay="400" >
-                    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=fullgym01-20&marketplace=amazon&amp;region=US&placement=B096KSH2CB&asins=B096KSH2CB&linkId=0858205b5b5847049e6a526f8b690b5a&show_border=false&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-                    </iframe>
+            </div>
+
+            <!-- sidebar -->
+            <div class="col-3 d-none d-lg-block ">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 p-3 bg-light" >
+                            <h3 style="color:#f13a11;" >Categor&iacute;as</h3>
+                        </div>
+                        <div class="col-12 bg-light mt-2 ">
+                            <ul class="nav nav-pills flex-column justify-content-around  py-3 ulCategorias" >
+                                <li class="nav-item my-2" ><a href="caminadoras.html" class="nav-link text-dark d-flex align-items-center justify-content-between"  >Caminadoras <img src="../img/icons/treadmill-machine.png" width="20px" height="20px" alt="" ></a></li>
+                                <li class="nav-item my-2" ><a href="accesorios_hombre.html" class="nav-link text-dark d-flex align-items-center justify-content-between"  >Accesorios de hombre <img src="../img/icons/camiseta-baloncesto.png" width="20px" height="20px" alt="" ></a></li>
+                                <li class="nav-item my-2" ><a href="accesorios_mujer.html" class="nav-link text-dark d-flex align-items-center justify-content-between"  >Accesorios de mujer <img src="../img/icons/woman-clothes.png" width="20px" height="20px" alt="" ></a></li>
+                                <li class="nav-item my-2" ><a href="mancuernas.html" class="nav-link text-dark d-flex align-items-center justify-content-between"  >Mancuernas <img src="../img/icons//dumbbell.png" width="20px" height="20px" alt="" ></a></li>
+                                <li class="nav-item my-2" ><a href="mask.html" class="nav-link text-dark d-flex align-items-center justify-content-between"  >Mascarillas <img src="../img/icons/máscara-de-protección-1.png" width="20px" height="20px" alt="" ></a></li>
+                                <li class="nav-item my-2" ><a href="sweat_waist.html" class="nav-link text-dark d-flex align-items-center justify-content-between"  >Sweat Waist <img src="../img/icons/waist.png" width="20px" height="20px" alt="" ></a></li>
+                                <li class="nav-item my-2" ><a href="thermos.html" class="nav-link text-dark d-flex align-items-center justify-content-between"  >Botellas de Agua <img src="../img/icons/water-bottle.png" width="20px" height="20px" alt="" ></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 p-3 bg-light mt-3" >
+                            <h3 style="color:#f13a11;" >Subcategor&iacute;as</h3>
+                        </div>
+                        <div class="col-12 bg-light mt-2 mb-4 ">
+                            <ul class="nav nav-pills flex-column justify-content-around  py-3 ulCategorias" >
+                                <li class="nav-item my-2" ><a href="#sudaderas_hombre_featured" class="nav-link text-dark d-flex align-items-center justify-content-between text-capitalize"  >Sudaderas Hombres Destacadas</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around my-2" data-aos="fade-up" data-aos-delay="400" >
-                    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=fullgym01-20&marketplace=amazon&amp;region=US&placement=B08CLF4CNS&asins=B08CLF4CNS&linkId=83227a4a9a97efc7b9a29a5f19c733fd&show_border=false&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-                    </iframe>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around my-2" data-aos="fade-up" data-aos-delay="400" >
-                    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=fullgym01-20&marketplace=amazon&amp;region=US&placement=B07BNVMC85&asins=B07BNVMC85&linkId=99a013b1cf300324205b4c9c02a12ed0&show_border=false&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-                    </iframe>
-                </div>
+            </div>        
 
         </div>
      </section>
@@ -275,6 +347,8 @@
      <script src="../js/aos.js"></script>
      <script src="../js/smoothscroll.js"></script>
      <script src="../js/custom.js"></script>
+
+     
 
 </body>
 </html>
